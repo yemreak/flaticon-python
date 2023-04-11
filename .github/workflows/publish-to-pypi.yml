@@ -3,6 +3,7 @@ name: Publish Python distributions to PyPI and TestPyPI
 on: push
 jobs:
   build-n-publish:
+    environment: Pypi Package
     name: Build and publish Python distributions to PyPI
     runs-on: ubuntu-latest
     steps:

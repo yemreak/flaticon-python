@@ -87,5 +87,5 @@ class FlatIconClient:
                     return imagepath
         await download(image.url, imagepath, self._session)
         with self._csv_file.open("a") as file:
-            file.write("\n" + ",".join(image.to_dict().values()))
+            file.write("\n" + ",".join(map(str, image.to_dict().values())))
         return imagepath

@@ -9,7 +9,7 @@ from os.path import basename, splitext
 from setuptools import find_packages, setup
 from pathlib import Path
 
-VERSION = "1.0.0"
+VERSION = "1.0.1"
 README_PATH = "docs/README.md"
 DESCRIPTION = "Scrape icons from flaticon.com"
 USERNAME = "yedhrab"
